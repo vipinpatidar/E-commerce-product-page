@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+
+    <title>E-commerce product page</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="flex align-items">
+        <h1>sneakers</h1>
+        <ul class="flex align-items flow" role="list">
+          <li>Collections</li>
+          <li>Men</li>
+          <li>Women</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+        <div class="cart-proImg flex flow align-items">
+          <div class="cart-box">
+            <img class="cart-img" src="./images/icon-cart.svg" alt="" />
+            <span class="addedPrducts">0</span>
+            <div class="cart-card">
+              <h4>Cart</h4>
+              <div class="cart-items">
+                <p>Your cart is empty.</p>
+              </div>
+            </div>
+          </div>
+          <img class="avatar-img" src="./images/image-avatar.png" alt="" />
+        </div>
+      </header>
+      <section class="info-section flex">
+        <div class="shoes-img-container flex">
+          <img id="open-model" src="./images/image-product-1.jpg" alt="" />
+          <div class="small-img flex">
+            <img
+              data-img="1"
+              class="active-img s-img"
+              src="./images/image-product-1-thumbnail.jpg"
+              alt=""
+            />
+            <img
+              class="s-img"
+              data-img="2"
+              src="./images/image-product-2-thumbnail.jpg"
+              alt=""
+            />
+            <img
+              class="s-img"
+              data-img="3"
+              src="./images/image-product-3-thumbnail.jpg"
+              alt=""
+            />
+            <img
+              class="s-img"
+              data-img="4"
+              src="./images/image-product-4-thumbnail.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="shoes-text-container flex">
+          <p class="shoes-text-company">Sneaker Company</p>
+          <h1 class="shoes-text-heading">Fall Limited Edition Sneakers</h1>
+          <p class="shoes-text-pera">
+            These low-profile sneakers are your perfect casual wear companion.
+            Featuring a durable rubber outer sole, they’ll withstand everything
+            the weather can offer.
+          </p>
+          <h1>$125.00 <span class="shoes-text-off">50%</span></h1>
+          <p class="shoes-full-price">$250.00</p>
+          <div class="flex btns-container">
+            <div class="plus-minus-btn flex">
+              <button id="minus">-</button>
+              <span id="add-product">0</span>
+              <button id="plus">+</button>
+            </div>
+            <div class="cart-btn">
+              <a id="add-to-cart-btn" class="flex" href="#"
+                ><img src="./images/icon-cart.svg" alt="" />Add to cart</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="shoes-model">
+        <div class="img-div shoes-img-container flex">
+          <div class="big-img-div">
+            <svg
+              class="close"
+              width="14"
+              height="15"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m11.596.782 2.122 2.122L9.12 7.499l4.597 4.597-2.122 2.122L7 9.62l-4.595 4.597-2.122-2.122L4.878 7.5.282 2.904 2.404.782l4.595 4.596L11.596.782Z"
+                fill="#69707D"
+                fill-rule="evenodd"
+              />
+            </svg>
+            <img class="big-img" src="./images/image-product-1.jpg" alt="" />
+            <img class="prev" src="./images/icon-previous.svg" alt="" />
+            <img class="next" src="./images/icon-next.svg" alt="" />
+          </div>
+          <div class="small-img flex">
+            <img
+              data-img="1"
+              class="active-img s-img"
+              src="./images/image-product-1-thumbnail.jpg"
+              alt=""
+            />
+            <img
+              class="s-img"
+              data-img="2"
+              src="./images/image-product-2-thumbnail.jpg"
+              alt=""
+            />
+            <img
+              class="s-img"
+              data-img="3"
+              src="./images/image-product-3-thumbnail.jpg"
+              alt=""
+            />
+            <img
+              class="s-img"
+              data-img="4"
+              src="./images/image-product-4-thumbnail.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
